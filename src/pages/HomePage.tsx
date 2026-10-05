@@ -42,7 +42,7 @@ export const HomePage: React.FC = () => {
       <section className="relative w-full h-[75vh] min-h-[460px] max-h-[700px] overflow-hidden bg-surface-container-low flex items-center justify-center">
         {/* Background Image - Restored Previous Hero Kurti Image */}
         <img
-          src="/src/assets/images/hero_kurti_models_1791216818601.jpg"
+          src="/assets/images/hero_kurti_models_1791216818601.jpg"
           alt="2026 Edition - Model Wearing Luxury Handcrafted Kurti Set"
           className="absolute inset-0 w-full h-full object-cover object-top filter brightness-[0.92]"
         />
@@ -259,28 +259,28 @@ export const HomePage: React.FC = () => {
                 title: 'Daily & Workwear Kurtis',
                 tag: 'EVERYDAY COMFORT',
                 price: 'Starting from ₹1,499',
-                image: '/src/assets/images/hd_cat_daily_kurti_1791218227218.jpg',
+                image: '/assets/images/hd_cat_daily_kurti_1791218227218.jpg',
                 screen: 'collections-kurtas-and-suit-sets' as NavCategory
               },
               {
                 title: 'Festive Anarkalis & Shararas',
                 tag: 'WEDDING GUEST',
                 price: 'Starting from ₹3,999',
-                image: '/src/assets/images/hd_cat_anarkali_1791218247597.jpg',
+                image: '/assets/images/hd_cat_anarkali_1791218247597.jpg',
                 screen: 'festive-collection' as NavCategory
               },
               {
                 title: 'Silk & Handloom Sets',
                 tag: 'HEIRLOOM EDIT',
                 price: 'Starting from ₹3,499',
-                image: '/src/assets/images/hd_cat_silk_kurta_1791218264210.jpg',
+                image: '/assets/images/hd_cat_silk_kurta_1791218264210.jpg',
                 screen: 'collections-kurtas-and-suit-sets' as NavCategory
               },
               {
                 title: 'Sarees & Lehengas',
                 tag: 'GRAND OCCASIONS',
                 price: 'Starting from ₹6,999',
-                image: '/src/assets/images/hd_cat_lehenga_1791218281117.jpg',
+                image: '/assets/images/hd_cat_lehenga_1791218281117.jpg',
                 screen: 'sarees-and-lehengas' as NavCategory
               }
             ].map((cat, i) => (
@@ -320,7 +320,7 @@ export const HomePage: React.FC = () => {
             {/* Model Hotspot Display */}
             <div className="lg:col-span-7 relative bg-surface-container-low border border-border-hairline shadow-md overflow-hidden aspect-[4/5] max-h-[600px] mx-auto w-full">
               <img
-                src="/src/assets/images/hd_look_model_1791218298130.jpg"
+                src="/assets/images/hd_look_model_1791218298130.jpg"
                 alt="Shop the look model ensemble"
                 className="w-full h-full object-cover object-top"
               />
@@ -398,7 +398,7 @@ export const HomePage: React.FC = () => {
       {/* BEHIND THE WEAVE EDITORIAL BANNER */}
       <section className="relative w-full bg-on-surface text-canvas-base py-20 px-4 lg:px-12 text-center overflow-hidden">
         <img
-          src="/src/assets/images/hd_behind_weave_1791218319649.jpg"
+          src="/assets/images/hd_behind_weave_1791218319649.jpg"
           alt="Behind the Weave"
           className="absolute inset-0 w-full h-full object-cover filter brightness-[0.35]"
         />
