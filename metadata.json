@@ -1,0 +1,8 @@
+{
+  "name": "Sagai Selection - Heritage Couture",
+  "description": "Luxury Indian Ethnic Wear, Handcrafted Chanderi Silks, Chikankari Anarkalis & Bespoke Trousseau Ensembles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
